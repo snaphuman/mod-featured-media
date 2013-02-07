@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="module" version="2.5.1" client="site" method="upgrade">
+    <name>Featured Images</name>
+    <author>Fabian Hernandez</author>
+    <creationDate>03-Nov-2012</creationDate>
+    <copyright>CopyLeft 2012-2014</copyright>
+    <license>GNU GPLv3</license>
+    <authorEmail>fhernandezn@gmail.com</authorEmail>
+    <version>0.1.0</version>
+    <files>
+        <filename module="mod_featured_images">mod_featured_images.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+        <folder>assets</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="moduleclass_sfx"
+                    type="text"
+                    default=""
+                    label="Sufijo de clase"
+                    description="Especifique la clase para el módulo" />
+            </fieldset>
+            <fieldset name="CATEGORY_SELECTOR_CONFIGURATION">
+                <field
+                    name="catid"
+                    type="category"
+                    extension="com_content"
+                    multiple="true"
+                    size="10"
+                    default=""
+                    label="Seleccione la(s) categorías"
+                    description="Selecciona las categorías de donde se obtendrán las imágenes de los artículos" />
+                    <option value="">JOPTION_ALL_CATEGORIES</option>
+            </fieldset>
+            <fieldset name="DISPLAY_IMAGES_CONFIGURATION">
+                <field
+                    name="imgLimit"
+                    type="text"
+                    label="Número de imagenes a mostrar por artículo"
+                    size="2"
+                    default="2" />
+            </fieldset>
+        </fields>
+    </config>
+
+</extension>
