@@ -1,7 +1,7 @@
 <?php
 /*
  * @package     Jokte.Site
- * @subpackage  FeaturedImages.Module
+ * @subpackage  FeaturedMedia.Module
  * @author      Fabian Hernández - Equipo de desarrollo Juuntos
  * @copyleft    (comparte igual) Jokte! CMS
  * @license     GNU General Public License versión 3 o superior
@@ -12,7 +12,7 @@ defined('_JEXEC') or die();
 
 require_once (dirname(__FILE__).DS.'helper.php');
 
-$randomCategoryArticlesImgs = modFeaturedImagesHelper::randomCategoryArticlesImages($params);
+$randomCategoryArticlesThumbs = modFeaturedMediaHelper::randomCategoryArticlesMedia($params);
 
-require JModuleHelper::getLayoutPath('mod_featured_images', $params->get('layout', 'default'));
+require JModuleHelper::getLayoutPath('mod_featured_media', $params->get('layout', 'default'));
 ?>

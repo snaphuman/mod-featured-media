@@ -2,11 +2,11 @@
 defined('_JEXEC') or die('Direct Access is not allowed');
 
 $document =& JFactory::getDocument();
-$document->addStylesheet(JURI::base() . 'modules/mod_featured_images/assets/css/mod_featured_images.css');
+$document->addStylesheet(JURI::base() . 'modules/mod_featured_media/assets/css/mod_featured_media.css');
 ?>
 
 <div id="mod-featured-imgs" class="images-container">
-    <?php foreach ($randomCategoryArticlesImgs as $article) : ?>
+    <?php foreach ($randomCategoryArticlesThumbs as $article) : ?>
         <div class="title-container">
             <div class="title-container-in">
                 <div class="title-container-bg">

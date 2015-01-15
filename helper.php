@@ -5,8 +5,8 @@ require_once JPATH_SITE.'/components/com_content/helpers/route.php';
 
 JModelLegacy::addIncludePath(JPATH_SITE.'/components/com_content/models', 'ContentModel');
 
-abstract class modFeaturedImagesHelper {
-    public static function randomCategoryArticlesImages(&$params) {
+abstract class modFeaturedMediaHelper {
+    public static function randomCategoryArticlesMedia(&$params) {
         $db = JFactory::getDbo();
 
         $items = $params->get('catid');

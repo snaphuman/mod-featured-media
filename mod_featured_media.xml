@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <extension type="module" version="2.5.1" client="site" method="upgrade">
-    <name>Featured Images</name>
+    <name>Featured Media</name>
     <author>Fabian Hernandez</author>
     <creationDate>03-Nov-2012</creationDate>
-    <copyright>CopyLeft 2012-2014</copyright>
+    <copyright>CopyLeft Comparte Igual</copyright>
     <license>GNU GPLv3</license>
     <authorEmail>fhernandezn@gmail.com</authorEmail>
     <version>0.1.0</version>
     <files>
-        <filename module="mod_featured_images">mod_featured_images.php</filename>
+        <filename module="mod_featured_media">mod_featured_media.php</filename>
         <filename>index.html</filename>
         <filename>helper.php</filename>
         <folder>tmpl</folder>

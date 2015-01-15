@@ -1,3 +1,3 @@
-#Mòdulo de imágenes destacadas
+#Mòdulo multimedia destacada
 
-Una forma simple de obtener las imágenes de tus artículos, organizarlas y presentarlas de diferentes maneras en cualquier posición y página de tu sitio
+Una forma simple de obtener las imágenes y embeds de tus artículos, organizarlos y presentarlos de diferentes maneras en cualquier posición y página de tu sitio
