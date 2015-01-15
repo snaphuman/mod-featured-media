@@ -15,6 +15,7 @@
     <folder>assets</folder>
   </files>
   <languages>
+    <language tag="es-LA">language/es-LA.mod_featured_media.ini</language>
     <language tag="en-GB">language/en-GB.mod_featured_media.ini</language>
   </languages>
   <config>
