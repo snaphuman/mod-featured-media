@@ -1,3 +1,6 @@
+.thumb-block a {
+    padding: 0;
+}
 
 #mod-featured-imgs .column {
   width: 50%;
@@ -10,6 +13,8 @@
 #mod-featured-imgs .clearfix {
   content: '';
   clear: both;
+  margin: 0;
+  padding: 0;
 }
 
 #mod-featured-imgs hr {

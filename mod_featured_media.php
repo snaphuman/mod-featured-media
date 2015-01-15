@@ -12,7 +12,9 @@ defined('_JEXEC') or die();
 
 require_once (dirname(__FILE__).DS.'helper.php');
 
-$randomCategoryArticlesThumbs = modFeaturedMediaHelper::randomCategoryArticlesMedia($params);
+$items = modFeaturedMediaHelper::displayCategoryArticlesMedia($params);
 
-require JModuleHelper::getLayoutPath('mod_featured_media', $params->get('layout', 'default'));
+$styles = modFeaturedMediaHelper::displayCategoryArticlesStyles($params);
+
+require JModuleHelper::getLayoutPath('mod_featured_Media', $params->get('layout', 'default'));
 ?>
